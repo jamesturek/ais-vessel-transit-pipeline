@@ -1,3 +1,0 @@
-"0","dir.create(""data/raw"", recursive = TRUE)"
-"0","dir.create(""data/processed"", recursive = TRUE)"
-"0","dir.create(""R"")"
