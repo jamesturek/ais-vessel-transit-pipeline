@@ -11,3 +11,5 @@ source("R/02_transform.R")
 head(ais_transformed)
 
 source("R/03_load.R")
+
+source("main.R")
