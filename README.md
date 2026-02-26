@@ -8,6 +8,12 @@ An end-to-end ETL pipeline in R that ingests US coastal vessel traffic raster da
 
 This project processes **AIS (Automatic Identification System) Vessel Transit Count** GeoTIFFs published by [NOAA Marine Cadastre](https://marinecadastre.gov/ais/) for 2023. The pipeline extracts vessel traffic data across five US regions, reprojects coordinates to WGS84, classifies traffic intensity, and loads the results into a queryable SQLite database.
 
+## Visualisations
+
+![Vessel Traffic Density](outputs/plot1_heatmap.png)
+
+![Top 50 Busiest Cells](outputs/plot2_top_cells.png)
+
 ---
 
 ## Pipeline Architecture
