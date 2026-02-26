@@ -39,6 +39,8 @@ The dashboard includes:
 - **Port Clusters** — clickable map of identified major ports
 - **Statistics** — traffic intensity and regional breakdowns
 
+  ![Dashboard Preview](outputs/dashboard_preview.png)
+
 ## Pipeline Architecture
 
 ```
