@@ -2,5 +2,9 @@
 *.tfw
 *.ovr
 *.aux.xml
+*.tif.xml
 *.db
+*.RData
+*.Rhistory
+.Rproj.user/
 data/processed/
