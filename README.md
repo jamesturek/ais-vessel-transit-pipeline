@@ -30,6 +30,8 @@ source("main.R")
 
 # Launch the dashboard
 shiny::runApp("R/app.R")
+
+![Dashboard Preview](outputs/dashboard_preview.png)
 ```
 
 The dashboard includes:
