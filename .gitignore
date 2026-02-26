@@ -1,0 +1,6 @@
+*.tif
+*.tfw
+*.ovr
+*.aux.xml
+*.db
+data/processed/

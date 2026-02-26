@@ -1,0 +1,8 @@
+"0","# 01_extract.R"
+"0","# Extract: load AIS raster data, reproject, convert to dataframe"
+"0",""
+"0","library(terra)"
+"0","library(dplyr)"
+"2","Error: package or namespace load failed for ‘dplyr’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ namespace ‘rlang’ 1.1.6 is already loaded, but >= 1.1.7 is required
+"
