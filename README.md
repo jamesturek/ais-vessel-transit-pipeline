@@ -2,6 +2,9 @@
 
 An end-to-end ETL pipeline in R that ingests US coastal vessel traffic raster data, transforms it into a structured format, and loads it into a SQLite database for analysis.
 
+## Live Dashboard
+
+🚢 **[View the interactive dashboard](https://jamesturek.shinyapps.io/ais-vessel-transit-dashboard/)**
 ---
 
 ## Overview
