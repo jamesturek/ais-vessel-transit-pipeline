@@ -16,6 +16,27 @@ This project processes **AIS (Automatic Identification System) Vessel Transit Co
 
 ---
 
+## Interactive Dashboard
+
+An interactive Shiny dashboard is included for exploring the data visually.
+
+**To run locally:**
+```r
+# Install dependencies
+install.packages(c("shiny", "leaflet", "DBI", "RSQLite", "dplyr", "ggplot2", "viridis", "bslib", "scales"))
+
+# Run the pipeline first to generate the database
+source("main.R")
+
+# Launch the dashboard
+shiny::runApp("R/app.R")
+```
+
+The dashboard includes:
+- **Overview** — interactive map with region and intensity filters
+- **Port Clusters** — clickable map of identified major ports
+- **Statistics** — traffic intensity and regional breakdowns
+
 ## Pipeline Architecture
 
 ```
